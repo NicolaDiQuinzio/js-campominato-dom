@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>js-campominato-grid<</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div
+          class="container d-flex justify-content-between align-items-center h-100"
+        >
+          <img src="" alt="" />
+          <h1>Campo Minato</h1>
+          <form id="levelform" class="d-flex align-items-center">
+            <div>
+              <label for="level">Seleziona Livello</label>
+              <select name="level" id="level">
+                <option value="Easy" selected>Easy</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="Hard" selected>Hard</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-warning ms-2">Play</button>
+          </form>
+        </div>
+      </header>
+      <main>
+        <div
+          class="container d-flex justify-content-center align-items-center h-100 flex-wrap"
+        >
+          <div id="playground"></div>
+          <h3 id="score" class="w-100 text-center fs-4">
+            Seleziona la difficolta e premi play
+          </h3>
+        </div>
+      </main>
+      <footer>
+        <div class="container d-flex align-items-center h-100 fs-6">
+          Made with &hearts; By classe92
+        </div>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/utility.js"></script>
+  </body>
+</html>
